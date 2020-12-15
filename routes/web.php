@@ -15,4 +15,4 @@ Route::get('/', function () {
     return view('welcome');
 });
 
-// Route::get('class_room',);
+Route::get('class_room','User\ClassRoomController@index');
