@@ -15,6 +15,4 @@ Route::get('/', function () {
     return view('welcome');
 });
 
-Route::get('test',function(){
-    return 1234;
-});
+// Route::get('class_room',);
